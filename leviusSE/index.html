@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>leviuswafula</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top"><img src="https://upload.wikimedia.org/wikipedia/commons/archive/7/75/20150324061112%21Levi%27s_logo.svg" alt="levius wafula" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#home"><small>Home</small></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services"><small>Services</small></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Portfolio"><small>Portfolio</small></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about"><small>About</small></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team"><small>Team</small></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact"><small>Contact</small></a></li>
+                        <a id="githubIcon" href="https://github.com/leviuswafula" target="_blank">
+                            <i class="fa-brands fa-github fa-flip-horizontal fa-2xl" style="color: #ffffff;"></i>
+                          </a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading" id="animated-text">Welcome To leviuswafula Website!</div>
+                <div class="masthead-subheading text-lowercase">glad you visited..<br> let's see what we got here. 😊</br></div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
+                <a id="whatsappChatBtn" href="https://wa.me/+254713713176" target="_blank">&NonBreakingSpace;let's talk
+                    <i class="fa-brands fa-square-whatsapp fa-rotate-270 fa-2xl" style="color: #1ca079;"></i>
+                  </a>
+                <button id="downloadCvBtn" onclick="downloadCv()">Download My CV</button>
+            </div>
+            <div id="nameContainer">
+              &nbsp;&nbsp;&nbsp;  <span class="name">Im levius wafula<br>Software Developer</br>😎</span> <!-- Glasses emoji -->
+              </div>
+        </header>
+        <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase"><i>Services</i></h2>
+                    <h3 class="section-subheading text-muted">"LarVieTech," I do offer the following services as per the clients' need!.</h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Website/Web App Development</h4>
+                        <p class="text-muted">Digitalise your business or your ideas today by making them live online to your own website with me.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Software Development</h4>
+                        <p class="text-muted">Starting form school management softwares to P.O.S at a customer freindly & budgetable price.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Computer Sevices/IT support</h4>
+                        <p class="text-muted">Has your Computer developed a problem? has lasted long without service or you having
+                             problem with the inbuiled softwares..? Just contact me ASAP even for remote service.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase"><i><small> Portfolio</small> </i></h2>
+                    <h3 class="section-subheading text-muted">Here are a coulple of my recently finished projects.</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/shulep1.PNG" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading"><small> Shulepress Accounts Software</small> </div> 
+                                <div class="portfolio-caption-subheading text-muted">a school accounts management software with friendly and  simple UI and a better UX.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/erd.jpeg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading"><small>ERD Laravel schema </small> </div>
+                                <div class="portfolio-caption-subheading text-muted">A Laravel schema ERD for relstionship diagrams to easily manage php & Laravel Jobs.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/realstt.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Real-estate & house management system</div>
+                                <div class="portfolio-caption-subheading text-muted">a Real-estate website that enables users to know the exact information of an appartment before deciding wheather to chose
+                                    and a house management system.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <!-- Portfolio item 4-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/spApp.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading"><small> SP Katsura food App</small> </div>
+                                <div class="portfolio-caption-subheading text-muted">A food delivery App where clients can make ordes and get there food delivered at their doorstep.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <!-- Portfolio item 5-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/pos1.jpeg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading"><small> Proof hotel P.O.S software Southwest Carolina United States</small> </div>
+                                <div class="portfolio-caption-subheading text-muted">iRestora hotel management and point of sale software that easily manages sales.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <!-- Portfolio item 6-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/bayt.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading"><small> Baytstaffsolutions website</small></div>
+                                <div class="portfolio-caption-subheading text-muted">An online job-serch platform where users can register/subscribe and apply for their desired job as it offers a wide range of opportunities.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About-->
+        <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase"><i><small> About</small> </i></h2>
+                    <p>Hello there....<span class="wave-animation">.👋</span>!</p>
+                    <h3 class="section-subheading text-muted">
+                        Am Levius wafula., an Enthusiastic, self-taught and
+                        dedicated  software developer with around
+                        [4 years] of experience in designing and
+                        implementing innovative software solutions.
+                        Skilled in multiple programming languages
+                        and technologies, with a strong foundation in
+                        computer science concepts. Adept at
+                        collaborating with clients and crossfunctional teams to drive project success.
+                        Passionate about staying up-to-date with
+                        the latest industry trends and technologies.
+                        Seeking to contribute technical expertise and
+                        creativity to a dynamic software development
+                        team.</h3>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2021-2022</h4>
+                                <h4 class="subheading">My Humble Beginnings</h4>
+                                <p>Front-End Developer | [Draw-erd.com] | [Full-Time, kitale, Kenya]</p>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Participated in the partial software development, from concept to testing and deployment.
+                                <br>Worked closely with senior developer to enhance skills and understanding of software architecture.</br>
+                                </p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>March 2022</h4>
+                                <h4 class="subheading">An Agency is Born</h4>
+                                <p>Web Developer | [Claroty Solutions] | [Remote, San Francisco, U.S.A]</p>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">collaborated with Tech support team to , provide
+                                updates, and ensure alignment with project objectives.</p></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>October 2022</h4>
+                                <h4 class="subheading">Transition to Full Service</h4>
+                                <p>System assistant | St.Josephs girls highschool kitale
+                                    [Hybrid Kitale,kenya]</p>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">worked as system assistant for school finance
+                                system</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2022 -- present</h4>
+                                <h4 class="subheading">Phase Two Expansion</h4>
+                                <p>Software Developer | [Shulepress Technologies
+                                     | [Hybrid Kitale, Kenya] | [2022] – [present]·</p>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Co-founded shulepress Technologies and worked with a team of two to develop & grow the company through the development of different user-friendly sofwares.
+                                Developed and maintained robust, scalable software and meeting client espectations {The shulepress schools acacasemic systems}.
+                                Developed an academic software, for shulepress and enquality codebase.</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>
+                                Be Part
+                                <br />
+                                Of my
+                                <br />
+                                Story!
+                            </h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Team-->
+        <section class="page-section bg-light" id="team">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase"><i>My Amazing Team</i></h2>
+                    <h3 class="section-subheading text-muted">This is a Team of Amazing,Industrious & Dream oriented personells who could work 
+                        under least or no supervision without any pressure ,to deliver what's the clients' need,with Salim Baraza, being our lead C.E.O &
+                        Senior Full-stack developer could assign duties and dedicatedly, would participate to bring about positive and pleasing results.</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/post.png" alt="..." />
+                            <h4>Levius wafula</h4>
+                            <p class="text-muted">Lead Software developer, Shulepress technologies</p>
+                            <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/WafulaLevius" aria-label="Levius wafula Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://web.facebook.com/profile.php?id=100070244516089" aria-label="Levius wafula Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/levius-wafula-440b82244/" aria-label="Levius wafula LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/salim.jpg" alt="..." />
+                            <h4>Salim Baraza</h4>
+                            <p class="text-muted">Lead C.E.O,Shulepress technologies</p>
+                            <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/salim_baraza23" aria-label="Salim Baraza Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://web.facebook.com/salim.abdi.771" aria-label="Salim Baraza Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/salim-baraza-b07a21168/?originalSubdomain=ke" aria-label="Salim Baraza LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/levius.jpg" alt="..." />
+                            <h4>Victor Baraza </h4>
+                            <p class="text-muted">C.T.O Shulepress, technologies</p>
+                            <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/vsbarasa" aria-label="Victor Baraza Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://web.facebook.com/search/top?q=barasa%20victor" aria-label="Victor Baraza Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/vsbarasa" aria-label="Victor Baraza LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Bellow are some Giant-Tech companies I have interacted and worked partialy
+                         with their software engineers/Programmers so as to better my skills and earn more experience so to get to be informed on up-to-date tech evolution.</p></div>
+                </div>
+            </div>
+        </section>
+        <!-- Clients-->
+        <div class="py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/microsoft.svg" alt="..." aria-label="Microsoft Logo" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/google.svg" alt="..." aria-label="Google Logo" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/facebook.svg" alt="..." aria-label="Facebook Logo" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/ibm.svg" alt="..." aria-label="IBM Logo" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase"><small> Contact me</small> </h2>
+                    <h3 class="section-subheading text-muted">sure we can have a chat and feel free ,to reaching me out,
+                        i always give a feedback .</h3>
+                </div>
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- * * SB Forms Contact Form * *-->
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- This form is pre-integrated with SB Forms.-->
+                <!-- To make this form functional, sign up at-->
+                <!-- https://startbootstrap.com/solution/contact-forms-->
+                <!-- to get an API token!-->
+                <form id="contactForm" data-sb-form-api-token="c34a64a9-f9f8-41cf-9dda-1ff189380c75k">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <!-- Name input-->
+                                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            </div>
+                            <div class="form-group">
+                                <!-- Email address input-->
+                                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                            <div class="form-group mb-md-0">
+                                <!-- Phone number input-->
+                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <!-- Message input-->
+                                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Submit success message-->
+                    <!---->
+                    <!-- This is what your users will see when the form-->
+                    <!-- has successfully submitted-->
+                    <div class="d-none" id="submitSuccessMessage">
+                        <div class="text-center text-white mb-3">
+                            <div class="fw-bolder">Form submission successful!</div>
+                            To activate this form, sign up at
+                            <br />
+                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                        </div>
+                    </div>
+                    <!-- Submit error message-->
+                    <!---->
+                    <!-- This is what your users will see when there is-->
+                    <!-- an error submitting the form-->
+                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                    <!-- Submit Button-->
+                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
+                </form>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">Copyright &copy;2024 Levius | All rights Reserved<br>
+                        &nbsp;&nbsp;&nbsp;
+                        <p>crafted with Love in Kenya 🇰🇪 | By Levius </p>
+                    </div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/WafulaLevius" aria-label="Levius wafula Twitter Profile"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://web.facebook.com/profile.php?id=100070244516089" aria-label="Levius wafula Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/levius-wafula-440b82244/" aria-label="Levius wafula LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.pinterest.com/leviuswafula/" aria-label="Levius wafula pinterest Profile"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <p>Make a call via: 📞 +254713713176<br>📞 +254705320141</br></p>
+                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy.</a>
+                        <a class="link-dark text-decoration-none" href="#!">Security .</a>
+                        <a class="link-dark text-decoration-none" href="#!">Terms of Use.</a>
+                    </div>
+                </div>
+            </div>
+            <div id="footer">
+                <span id="greeting"></span> from Levius the Time is: <span id="clock"></span>
+              </div>
+              
+        </footer>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Shulepress Accounts System</h2>
+                                    <p class="item-intro text-muted">Schools' Account management Software.
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/shulep2.PNG" alt="..." />
+                                    <p>A schools management system Developed with php & Laravel for front-end & serverside and mysql for database management</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Shulepress Technologies:</strong>
+                                            Kitale, Kenya
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            software 
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        click to close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 2 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Draw-erd</h2>
+                                    <p class="item-intro text-muted">Laravel schema for relationship diagrams.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/erd.jpeg" alt="..." />
+                                    <p>A Laravel schema for managing  relationship diagrams a php,Vanilla javascrip,mysql,react native,vue.js, & other frameworks,project!</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Personal Product:</strong>
+                                            Kitale,Nairobi, Kenya.
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            IT & Technology
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        click to close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 3 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Real-estate website</h2>
+                                    <p class="item-intro text-muted">online homes'& rental platform house management system & </p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/realstt.png" alt="..." />
+                                    <p>A Real-estate website for managing homes,developed with front-end, back-end & serverside Technologies.</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Mr.Wilwiter:</strong>
+                                            New Orleans,United States.
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Software
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        click to close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 4 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">SP Katsura food App</h2>
+                                    <p class="item-intro text-muted">food & grossery delivery App</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/spApp.png" alt="..." />
+                                    <p>A food delivery App where clients can make ordes and get there food delivered at their doorstep. developed with react native.</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>DMK Restourant:</strong>
+                                            Kitale,Kenya
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Software & business
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        click to close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 5 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">point Of Sale software</h2>
+                                    <p class="item-intro text-muted">Proof hotel P.O.S software  .</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/pos2.png" alt="..." />
+                                    <p>A point of Sale software that easily helps to manage & keep records for businesses.</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Proof people Restoration hotel:</strong>
+                                            Southwest Carolina,United States.
+                                           <br> Kipsongo,Kitale, Kenya</br>
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Software & business
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 6 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Baytstaffsolutions</h2>
+                                    <p class="item-intro text-muted">LBaytstaffsolutions jobs website.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/bayt1.png" alt="..." />
+                                    <p>An online job serch platform where subscribers can register and apply their dream jobs, a php,Laravel,VueJs,mysql&ExpressJs project</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Yousaf Sadaqat:</strong>
+                                            Umm Said, Qatar
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            business.
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button id="scrollToTopBtn" onclick="scrollToTop()">Go Up</button>
+          
+<!-- Your page content continues here -->
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at c34a64a9-f9f8-41cf-9dda-1ff189380c75k * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
